@@ -83,4 +83,11 @@ export const goods = [
         poster: "https://images.unsplash.com/photo-1593754500338-969a679d5ca3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
         price: 1550,
     },
+    {
+        id: "android",
+        category: "books",
+        name: "Денис Колисниченко. Программирования для Android. 3-е издание",
+        poster: "https://sun9-22.userapi.com/impg/ZnpNHE9HAPy5qB6juVS0XL04VmLEcnQJQOgPYA/kQMttMrf7YQ.jpg?size=670x579&quality=96&sign=774deeb6f4b9b39d88f5dfff9a124abe&type=album",
+        price: 30000
+    }
 ];

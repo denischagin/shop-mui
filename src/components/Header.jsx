@@ -1,6 +1,6 @@
 import React from 'react'
 import { AppBar, Badge, Toolbar, Typography } from '@mui/material'
-import { ShoppingBag } from '@mui/icons-material';
+import { ShoppingBag, Hiking, AutoStories } from '@mui/icons-material';
 
 const Header = ({ shopClick, countBadge }) => {
     return (
@@ -8,7 +8,7 @@ const Header = ({ shopClick, countBadge }) => {
             <Toolbar>
                 <Typography variant="h4" sx={{ flexGrow: 1 }}>Shop</Typography>
                 <Badge badgeContent={countBadge} color="secondary">
-                    <ShoppingBag onClick={shopClick} />
+                    <AutoStories onClick={shopClick} />
                 </Badge>
 
             </Toolbar>
